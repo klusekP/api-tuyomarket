@@ -1,0 +1,16 @@
+users:
+  type:     rest
+  prefix:   /api/
+  resource: App\Controller\Api\UsersController
+
+shops:
+  type:     rest
+  defaults: {_format: json}
+  prefix:   /api/
+  resource: App\Controller\Api\ShopsController
+
+clients:
+  type:     rest
+  defaults: {_format: json}
+  prefix:   /api/
+  resource: App\Controller\Api\ClientsController

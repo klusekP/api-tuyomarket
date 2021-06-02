@@ -1,0 +1,22 @@
+default:
+  suites:
+    default:
+      contexts:
+        - FeatureContext:
+            kernel: '@kernel'
+            parameters:
+              guzzle:
+                base_uri: "localhost:8100"
+
+  extensions:
+
+    Behat\Symfony2Extension:
+      kernel:
+        bootstrap: features/bootstrap/bootstrap.php
+        class: App\Kernel
+
+    Behat\MinkExtension:
+      base_url: "localhost:8100"
+      sessions:
+        default:
+          symfony2: ~

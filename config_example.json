@@ -1,0 +1,27 @@
+{
+  "integration": {
+    "JUBILER_anteeosql_5bc0950156c95": {
+      "adapter": "ANTEEOSQL",
+      "options": {
+        "port": "1433",
+        "external_name": "Jubiler - AnteeoSQL",
+        "host": "172.18.253.18",
+        "username": "LINKER",
+        "password": "shop.linker.2018###",
+        "database": "ANTEEO_WMS_DMT",
+        "centers": 1,
+        "status": 514,
+        "project": 2782,
+        "product_weight_zero": true,
+        "check_post_code_mask_pl": true,
+        "pallets": [
+          200000,
+          200001,
+          200002,
+          200003,
+          200025
+        ]
+      }
+    }
+  }
+}
